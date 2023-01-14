@@ -1,0 +1,12 @@
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\I2C_STM32F10x.c
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\STM32F10x.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\GPIO_STM32F10x.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\i2c_stm32f10x.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\DMA_STM32F10x.h

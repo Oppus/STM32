@@ -1,0 +1,116 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Rhine Lee, TLU, LIC=QF8SB-2N27W-PZPWB-2JNK4-EVBYG-6617V
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\MyCode\STM32\Back\Back.uvprojx
+Project File Date:  10/09/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling RTX_Conf_CM.c...
+compiling DMA_STM32F10x.c...
+compiling GPIO_STM32F10x.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+compiling I2C_STM32F10x.c...
+D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\I2C_STM32F10x.c(34): error:  #5: cannot open source input file "Driver_I2C.h": No such file or directory
+  #include "Driver_I2C.h"
+D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\I2C_STM32F10x.c: 0 warnings, 1 error
+compiling UART_STM32F10x.c...
+D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\UART_STM32F10x.c(37): error:  #5: cannot open source input file "Driver_UART.h": No such file or directory
+  #include "Driver_UART.h"
+D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\UART_STM32F10x.c: 0 warnings, 1 error
+".\Objects\Back.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ::CMSIS:RTOS:1.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 3.40.0
+   * Component: Keil RTX Version: 4.75.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: DMA Version: 1.01.0
+   * Component: UART Version: 1.01.0
+   * Component: GPIO Version: 1.01.0
+   * Component: I2C Version: 1.01.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\MyCode\STM32\Back\RTE
+  E:\MyCode\STM32\Back\RTE\Device\STM32F103C8
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.75.0
+      Library file:  CMSIS_RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS_RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS_RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Semaphore.c
+      Include file:  CMSIS_RTX\INC\cmsis_os.h
+      Source file:   CMSIS_RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS_RTX\UserCodeTemplates\MailQueue.c
+      Include file:  CMSIS_RTX\UserCodeTemplates\osObjects.h
+      Source file:   CMSIS_RTX\UserCodeTemplates\Thread.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+
+   * Component: Keil::Device:DMA:1.01.0
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+
+   * Component: Keil::Drivers:UART:1.01.0
+      Source file:   RTE_Driver\UART_STM32F10x.c
+
+   * Component: Keil::Device:GPIO:1.01.0
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+
+   * Component: Keil::Drivers:I2C:1.01.0
+      Source file:   RTE_Driver\I2C_STM32F10x.c
+Target not created.
+</pre>
+</body>
+</html>
