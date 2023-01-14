@@ -1,2 +1,3 @@
-# STM32
-Code for learning
+# STM32 and etc
+
+Code for learning.

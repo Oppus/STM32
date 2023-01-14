@@ -1,58 +1,0 @@
-Dependencies for Project 'Back', Target 'Back': (DO NOT MODIFY !)
-F (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\LIB\ARM\RTX_CM3.lib)(0x541F9B36)()
-F (RTE\CMSIS\RTX_Conf_CM.c)(0x54115F32)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h)(0x541F9B36)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\RTX_CM_lib.h)(0x541F9B36)
-F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\DMA_STM32F10x.c)(0x52B2710E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\dma_stm32f10x.o --omf_browse .\objects\dma_stm32f10x.crf --depend .\objects\dma_stm32f10x.d)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\STM32F10x.h)(0x528979E6)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\GPIO_STM32F10x.c)(0x52200B5E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\GPIO_STM32F10x.h)(0x52200B5E)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-F (RTE\Device\STM32F103C8\RTE_Device.h)(0x52431878)()
-F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E2E3C)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\I2C_STM32F10x.c)(0x52329A9E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\i2c_stm32f10x.o --omf_browse .\objects\i2c_stm32f10x.crf --depend .\objects\i2c_stm32f10x.d)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h)(0x541F9B36)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\STM32F10x.h)(0x528979E6)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\GPIO_STM32F10x.h)(0x52200B5E)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
-F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\UART_STM32F10x.c)(0x52329A9E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections-I E:\MyCode\STM32\Back\RTE-I E:\MyCode\STM32\Back\RTE\Device\STM32F103C8-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart_stm32f10x.o --omf_browse .\objects\uart_stm32f10x.crf --depend .\objects\uart_stm32f10x.d)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS_RTX\INC\cmsis_os.h)(0x541F9B36)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\STM32F10x.h)(0x528979E6)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm3.h)(0x53FC31DA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\GPIO_STM32F10x.h)(0x52200B5E)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
